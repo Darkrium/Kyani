@@ -22,27 +22,28 @@
 				"Your fur is pretty."
 			],
 			"floran":[
-				"You look strong.",
-				"What do you taste like?"
+				"You look sssstrong.",
+				"What do you tasssste like?"
+				"Kitty issss a friend?"
 			],
 			"human":[
 				"What are you?",
-				"Why are you missing fur?",
+				"Why do you smell so strange?",
 				"Do you like to cuddle too?"
 			],
 			"hylotl":[
 			],
 			"glitch":[
-				"What are you!",
-				"You are scary..",
-				"You are really cold",
-				"Are you metal?"
+				"Scared. What are you!",
+				"Aware. You are scary...",
+				"Friendly. You are really hot. No double meanings",
+				"Are you metal? Do you have gears?"
 			],
 			"kyani":[
 				"Greetings friend!",
 				"Can I give you a hug?",
 				"Need a hug?",
-				"Friend!"
+				"Friend! Meow!"
 			]
 		}
 	},
@@ -61,6 +62,7 @@
 			"I'm not certain that kyani are allowed here.",
 			"May I pet your ears, kyani?",
 			"What a terrifyingly adorable thing you are."
+                        "I heard you don't only meow. Can you make more types sounds?"
 		]
 	},
 	{
@@ -69,7 +71,7 @@
 		"value":[
 			"Greetings kyani, welcome to our settlement!",
 			"Teeth!",
-			"If you were feathered you'd look like a chicken.",
+			"If you were feathered you'd look like a feline chicken.",
 			"I hear the kyani god is merciful.",
 			"Let's dance!",
 			"I suspect Kluex may have been a kyani.",
@@ -78,6 +80,8 @@
 			"Nice to meet you, my furry friend.",
 			"Even kyani get to fly. Why not me?",
 			"If it were colder, I would cuddle a kyani."
+                        "I didn't know life can be made of metals"
+			"How can something metallic be so soft?"
 		]
 	},
 	{
@@ -85,6 +89,9 @@
 		"path":"/converse/felin/kyani",
 		"value":[
 			"Such a cute kyani!"
+			"Are kyani our distant cousins?"
+                        "Can I rub those ears?"
+                        "Hey there, buddy"
 		]
 	},
 	{
@@ -92,7 +99,7 @@
 		"path":"/converse/floran/kyani",
 		"value":[
 			"Not sssstab, yet.",
-			"Fluffy critter look tasty.",
+			"Fluffy critter look tasssssty.",
 			"Are you edible?",
 			"Do you like hunting too?",
 			"We ssshould go hunting fluffy friend",
@@ -110,7 +117,7 @@
 			"Cordial. Well met.",
 			"Cordial. Greetings alien.",
 			"Bothered. Please don't touch everything.",
-			"Delighted. What wondrous plumage, may I obtain some?",
+			"Delighted. What wondrous fur, may I obtain some?",
 			"Curious. What interesting physique, how have you lasted so long?",
 			"Flirtatious. I have some objects of value if you want.",
 			"Careful. May I stroke you?",
@@ -148,6 +155,8 @@
 			"Welcome, traveler. Please marvel at our exquisite building designs.",
 			"Would you like to learn about our architecture?",
 			"Have you and your kind improved your art lately?"
+			"I find the history of your kind interesting. If only I could learn more..."
+                        "What are the secrets you keep?"
 		]
 	}
 ]
