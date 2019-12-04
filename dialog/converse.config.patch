@@ -4,21 +4,22 @@
 		"path":"/converse/kyani",
 		"value":{
 			"default":[
-				"Hiya",
-				"Hi I'm <selfname>, Who you?",
-				"Like it around?",
+				"Greetings",
+				"Hello, I'm <selfname>. Who are you?",
+				"Do you know about Gaian?",
 				"You came this far to visit us?",
-				"*hums to self*",
-				"Huh? What you is?"
+				"*prays quietly*",
+				"Huh? What is it?"
 			],
 			"apex":[
 				"Cuddle time!"
+                                "I didn't know metals could be that soft"
 			],
 			"avian":[
-				"Hi birdy!",
-				"Can you fly?",
+				"Hi kitty!",
+				"We heard you believe in Gaian. It's just another name of Kluex, right?",
 				"Would you like to cuddle?",
-				"Your feathers are pretty."
+				"Your fur is pretty."
 			],
 			"floran":[
 				"You look strong.",
