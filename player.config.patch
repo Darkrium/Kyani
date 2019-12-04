@@ -1,0 +1,4 @@
+[
+	{"op":"add", "path":"/species/-", "value":"kyani"},
+	{"op":"add", "path":"/defaultCodexes/kyani", "value":["protectorate1", "protectorate2", "kyaniorigins"]}
+]

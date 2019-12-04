@@ -1,0 +1,204 @@
+{
+	"kind":"kyani",
+	"charCreationTooltip":{
+		"title":"Kyani",
+		"description":"Kyani have a long, varied history as cute fluff balls that only seek after peace and prosperity."
+	},
+	"nameGen":["/species/kyaninamegen.config:names", "/species/kyaninamegen.config:names"],
+	"ouchNoises":["/sfx/humanoid/humanmalehurt1.wav", "/sfx/humanoid/humanmalehurt1.wav"],
+	"gruntNoises":["/sfx/humanoid/humangrunt1.wav", "/sfx/humanoid/humangrunt2.wav"],
+	"charGenTextLabels":["Fur Color", "Ears", "Shirt", "Pants", "Trim Color", "Tailtip Color", "Shirt Color", "Pants Color", "KYANI", "Personality"],
+	"skull":"/humanoid/kyani/dead.png",
+	"effectDirectives":"?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+	"defaultBlueprints":{
+		"tier1":[
+			//Hand
+
+			//Crafting table
+
+			//Anvil
+			{"item":"kyanitier1head"},
+			{"item":"kyanitier1chest"},
+			{"item":"kyanitier1pants"},
+
+			//Spinningwheel
+			{"item":"kyanitier1broadsword"},
+			{"item":"kyanitier1shortsword"},
+			{"item":"kyanitier1hammer"},
+			{"item":"kyanitier1spear"},
+			{"item":"kyanitier1axe"},
+			{"item":"kyanitier1dagger"},
+			{"item":"kyanibonehead"},
+			{"item":"kyanibonechest"},
+			{"item":"kyanibonelegs"},
+			{"item":"burger"},
+			{"item":"vegetablesoup"},
+			{"item":"bread"},
+			{"item":"sweetcorn"},
+			{"item":"candyapple"},
+			{"item":"icecream"}
+		],
+		"tier2":[
+			{"item":"kyanitier2hammer"},
+			{"item":"kyanitier2shortsword"},
+			{"item":"kyanitier2broadsword"},
+			{"item":"hammeredsteelspear"},
+			{"item":"kyanitier2axe"},
+			{"item":"kyanitier2dagger"},
+			{"item":"kyanitier2head"},
+			{"item":"kyanitier2chest"},
+			{"item":"kyanitier2pants"},
+			{"item":"steelsacrifice"},
+			{"item":"spawnerkyani"}
+		],
+		"tier3":[
+			{"item":"kyanitier3head"},
+			{"item":"kyanitier3chest"},
+			{"item":"kyanitier3pants"},
+			{"item":"kyanitier3hammer"},
+			{"item":"kyanitier3shortsword"},
+			{"item":"kyanitier3broadsword"},
+			{"item":"kyanitier3spear"},
+			{"item":"kyanitier3axe"},
+			{"item":"kyanitier3dagger"}
+		],
+		"tier4":[
+			{"item":"kyanitier4head"},
+			{"item":"kyanitier4chest"},
+			{"item":"kyanitier4pants"},
+			{"item":"kyanitier4hammer"},
+			{"item":"kyanitier4shortsword"},
+			{"item":"kyanitier4broadsword"},
+			{"item":"kyanitier4spear"},
+			{"item":"kyanitier4axe"},
+			{"item":"kyanitier4dagger"}
+		],
+		"level32":[
+			{"item":"kyanitier5head"},
+			{"item":"kyanitier5chest"},
+			{"item":"kyanitier5pants"},
+			{"item":"kyanitier5hammer"},
+			{"item":"kyanitier5shortsword"},
+			{"item":"kyanitier5broadsword"},
+			{"item":"kyanitier5spear"},
+			{"item":"kyanitier5axe"},
+			{"item":"kyanitier5dagger"}
+		],
+		"level33":[
+			{"item":"kyanitier6head"},
+			{"item":"kyanitier6chest"},
+			{"item":"kyanitier6pants"},
+			{"item":"kyanitier6hammer"},
+			{"item":"kyanitier6shortsword"},
+			{"item":"kyanitier6broadsword"},
+			{"item":"kyanitier6spear"},
+			{"item":"kyanitier6axe"},
+			{"item":"kyanitier6dagger"}
+		],
+		"level34":[
+			{"item":"kyanitier7head"},
+			{"item":"kyanitier7chest"},
+			{"item":"kyanitier7pants"},
+			{"item":"kyanitier7hammer"},
+			{"item":"kyanitier7shortsword"},
+			{"item":"kyanitier7broadsword"},
+			{"item":"kyanitier7spear"},
+			{"item":"kyanitier7axe"},
+			{"item":"kyanitier7dagger"},
+			{"item":"ceruliumsacrifice"}
+		],
+		"level35":[
+			{"item":"kyanitier8head"},
+			{"item":"kyanitier8chest"},
+			{"item":"kyanitier8pants"},
+			{"item":"kyanitier8hammer"},
+			{"item":"kyanitier8shortsword"},
+			{"item":"kyanitier8broadsword"},
+			{"item":"kyanitier8spear"},
+			{"item":"kyanitier8axe"},
+			{"item":"kyanitier8dagger"}
+		],
+		"level36":[
+			{"item":"kyanitier9head"},
+			{"item":"kyanitier9chest"},
+			{"item":"kyanitier9pants"},
+			{"item":"kyanitier9hammer"},
+			{"item":"kyanitier9shortsword"},
+			{"item":"kyanitier9broadsword"},
+			{"item":"kyanitier9spear"},
+			{"item":"kyanitier9axe"},
+			{"item":"kyanitier9dagger"}
+		],
+		"level37":[
+			{"item":"kyanitier10head"},
+			{"item":"kyanitier10chest"},
+			{"item":"kyanitier10pants"},
+			{"item":"kyanitier10hammer"},
+			{"item":"kyanitier10shortsword"},
+			{"item":"kyanitier10broadsword"},
+			{"item":"kyanitier10spear"},
+			{"item":"kyanitier10axe"},
+			{"item":"kyanitier10dagger"}
+		]
+	},
+	"altOptionAsUndyColor":true,
+	"headOptionAsHairColor":true,
+ 	"altOptionAsHairColor":true,
+ 	"hairColorAsBodySubColor":true,
+	"genders":[
+		{
+			"name":"male",
+			"image":"/interface/title/male.png",
+			"characterImage":"/interface/title/kyanimale.png",
+			"hair":[""],
+			"shirt":[""],
+			"pants":[""],
+			"facialHairGroup":"warpaint",
+			"facialHair":[""],
+			"facialMaskGroup":"",
+			"facialMask":[""]
+		},
+		{
+			"name":"female",
+			"image":"/interface/title/female.png",
+			"characterImage":"/interface/title/kyanifemale.png",
+			"hair":[""],
+			"shirt":[""],
+			"pants":[""],
+			"facialHairGroup":"warpaint",
+			"facialHair":[""],
+			"facialMaskGroup":"",
+			"facialMask":[]
+		}
+	],
+	"bodyColor":[
+		{"e7e7e7":"e52727", "d0d0d0":"b71919", "adadad":"b50000", "a2a2a2":"9b0000", "909090":"860000", "808080":"000000", "797979":"750000"}, //Red
+		{"e7e7e7":"e88f3c", "d0d0d0":"e28731", "adadad":"e87000", "a2a2a2":"d36600", "909090":"860000", "808080":"000000", "797979":"c45e00"}, //Orange
+		{"e7e7e7":"f7f467", "d0d0d0":"e5e247", "adadad":"d6d200", "a2a2a2":"c1be00", "909090":"860000", "808080":"000000", "797979":"aaa800"}, //Yellow
+		{"e7e7e7":"517ebf", "d0d0d0":"4573b4", "adadad":"4964b9", "a2a2a2":"3752a8", "909090":"243f92", "808080":"1c3788", "797979":"152e7e"}, //Some sort of blue
+		{"e7e7e7":"bcd4e6", "d0d0d0":"aec6cf", "adadad":"91a3b0", "a2a2a2":"778899", "909090":"860000", "808080":"000000", "797979":"708090"}, //bluegrey
+		{"e7e7e7":"915700", "d0d0d0":"774700", "adadad":"633b00", "a2a2a2":"492c00", "909090":"860000", "808080":"000000", "797979":"352000"}, //Brown
+		{"e7e7e7":"d8c058", "d0d0d0":"d09038", "adadad":"906838", "a2a2a2":"705028", "909090":"860000", "808080":"000000", "797979":"533b1c"}, //tan
+		{"e7e7e7":"f1f2f2", "d0d0d0":"e5e8e8", "adadad":"d5d8d8", "a2a2a2":"ced3d3", "909090":"860000", "808080":"000000", "797979":"bac1c1"}, //white
+		{"e7e7e7":"e7e7e7", "d0d0d0":"d0d0d0", "adadad":"adadad", "a2a2a2":"a2a2a2", "909090":"909090", "808080":"808080", "797979":"797979"}, //defaultgrey
+		{"e7e7e7":"333a3a", "d0d0d0":"2f3434", "adadad":"262b2b", "a2a2a2":"232828", "909090":"860000", "808080":"000000", "797979":"1a1d1d"}, //black
+		{"e7e7e7":"e9d0ca", "d0d0d0":"dcb4ab", "adadad":"c9897a", "a2a2a2":"c37b6a", "909090":"860000", "808080":"000000", "797979":"9f5140"} //shaved
+	],
+	"undyColor":[
+		{"33db29":"111111", "45af3f":"4d76ad", "48a043":"395187", "3d8a39":"20325b", "256e21":"222222"}, //Blue
+		{"33db29":"111111", "45af3f":"7c41b8", "48a043":"6c2f90", "3d8a39":"471962", "256e21":"222222"}, //Purple
+		{"33db29":"111111", "45af3f":"c63442", "48a043":"9b2724", "3d8a39":"6a1210", "256e21":"222222"}, //Red
+		{"33db29":"111111", "45af3f":"eaa245", "48a043":"b47020", "3d8a39":"834a0c", "256e21":"222222"}, //Orange
+		{"33db29":"111111", "45af3f":"e3e13a", "48a043":"a8a614", "3d8a39":"848008", "256e21":"222222"}, //Yellow
+		{"33db29":"111111", "45af3f":"6ab841", "48a043":"45902f", "3d8a39":"296219", "256e21":"222222"}, //Lime
+		{"33db29":"111111", "45af3f":"535353", "48a043":"363636", "3d8a39":"111111", "256e21":"222222"}, //DarkGrey
+		{"33db29":"111111", "45af3f":"e6e6e6", "48a043":"979797", "3d8a39":"6f6f6f", "256e21":"222222"}, //White
+		{"33db29":"111111", "45af3f":"9e9e9e", "48a043":"6e6e6e", "3d8a39":"434343", "256e21":"222222"}, //Grey
+		{"33db29":"111111", "45af3f":"f794f8", "48a043":"d355c1", "3d8a39":"b72c95", "256e21":"222222"} //Pink
+	],
+	"hairColor":[
+		{"608ccc":"9e1a04", "517ebf":"852212", "4674b6":"590c00", "3e6cae":"333333"}, //Red
+		{"608ccc":"2288bb", "517ebf":"2288bb", "4674b6":"2288bb", "3e6cae":"333333"}, //Blue
+		{"608ccc":"c0e1ee", "517ebf":"c0e1ee", "4674b6":"c0e1ee", "3e6cae":"333333"} //White
+	]
+}

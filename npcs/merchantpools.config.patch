@@ -1,0 +1,9 @@
+{
+  "kyanimerchant" : [
+    [0, [
+      { "item" : { "name" : "bone" } },
+      { "item" : { "name" : "bonematerial" }, "price" : 4 },
+      { "item" : { "name" : "skullwalltorch" }, "rarity" : 0.2 }
+    ]]
+    ]
+}

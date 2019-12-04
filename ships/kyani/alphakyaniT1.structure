@@ -1,0 +1,20 @@
+{
+	"config":{
+		"shipUpgrades":{
+			"capabilities":[],
+			"maxFuel":2500,
+		"crewSize":2
+		}
+	},
+	"backgroundOverlays":[{
+		"image":"kyaniT1.png",
+		"position":[0, 0],
+		"fullbright":true
+	},
+	{
+		"image":"kyaniT1lit.png",
+		"position":[0, 0]
+	}],
+	"blockKey":"blockKey.config:blockKey",
+	"blockImage":"kyaniT1blocks.png"
+}

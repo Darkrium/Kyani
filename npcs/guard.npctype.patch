@@ -1,0 +1,43 @@
+[
+  {
+    "op":"add",
+    "path":"/items/kyani",
+    "value":[
+      [0, [{
+          "head":[{"name":"kyanitier1head"}],
+          "chest" :[{"name":"kyanitier1chest"}],
+          "legs" :[{"name":"kyanitier1pants"}],
+          "primary":["npcassaultrifle"],
+          "sheathedprimary":["npcbroadsword"]
+        }
+      ]],
+      [2, [
+        {
+          "head":[{"name":"kyanitier2head"}],
+          "chest":[{"name":"kyanitier2chest"}],
+          "legs":[{"name":"kyanitier2pants"}],
+          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
+          "sheathedprimary":["npcbroadsword"]
+        }
+      ]],
+      [3, [
+        {
+          "head":[{"name":"kyanitier3head"}],
+          "chest":[{"name":"kyanitier3chest"}],
+          "legs":[{"name":"kyanitier3pants"}],
+          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
+          "sheathedprimary":["npcbroadsword"]
+        }
+      ]],
+      [4, [
+        {
+          "head":[{"name":"kyanitier4head"}],
+          "chest":[{"name":"kyanitier4chest"}],
+          "legs":[{"name":"kyanitier4pants"}],
+          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
+          "sheathedprimary":["npcbroadsword"]
+        }
+      ]]
+    ]
+  }
+]

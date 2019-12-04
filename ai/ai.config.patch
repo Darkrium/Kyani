@@ -1,0 +1,3 @@
+[
+	{"op":"add", "path":"/species/kyani", "value":{"aiFrames":"kyaniai.png", "portraitFrames":"portraits/kyaniportrait.png", "staticFrames":"statickyani.png"}}
+]

@@ -1,0 +1,152 @@
+[
+	{
+		"op":"add",
+		"path":"/converse/kyani",
+		"value":{
+			"default":[
+				"Hiya",
+				"Hi I'm <selfname>, Who you?",
+				"Like it around?",
+				"You came this far to visit us?",
+				"*hums to self*",
+				"Huh? What you is?"
+			],
+			"apex":[
+				"Cuddle time!"
+			],
+			"avian":[
+				"Hi birdy!",
+				"Can you fly?",
+				"Would you like to cuddle?",
+				"Your feathers are pretty."
+			],
+			"floran":[
+				"You look strong.",
+				"What do you taste like?"
+			],
+			"human":[
+				"What are you?",
+				"Why are you missing fur?",
+				"Do you like to cuddle too?"
+			],
+			"hylotl":[
+			],
+			"glitch":[
+				"What are you!",
+				"You are scary..",
+				"You are really cold",
+				"Are you metal?"
+			],
+			"kyani":[
+				"Greetings friend!",
+				"Can I give you a hug?",
+				"Need a hug?",
+				"Friend!"
+			]
+		}
+	},
+	{
+		"op":"add",
+		"path":"/converse/apex/kyani",
+		"value":[
+			"Greetings, my fluffy friend.",
+			"Please don't distract me, they'll dock my pay or worse.",
+			"No offense, but the smell is distracting me.",
+			"Are you crazy, the Miniknog will come for you being here!",
+			"Perhaps you could assist me, kyani.",
+			"Do not come too close to me...",
+			"Would you care for a banana maybe?",
+			"Miniknog may be interested in you.",
+			"I'm not certain that kyani are allowed here.",
+			"May I pet your ears, kyani?",
+			"What a terrifyingly adorable thing you are."
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/avian/kyani",
+		"value":[
+			"Greetings kyani, welcome to our settlement!",
+			"Teeth!",
+			"If you were feathered you'd look like a chicken.",
+			"I hear the kyani god is merciful.",
+			"Let's dance!",
+			"I suspect Kluex may have been a kyani.",
+			"You can ruffle my feathers if I can rustle your ears.",
+			"Kluex didn't abandon us, he was just one of us.",
+			"Nice to meet you, my furry friend.",
+			"Even kyani get to fly. Why not me?",
+			"If it were colder, I would cuddle a kyani."
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/felin/kyani",
+		"value":[
+			"Such a cute kyani!"
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/floran/kyani",
+		"value":[
+			"Not sssstab, yet.",
+			"Fluffy critter look tasty.",
+			"Are you edible?",
+			"Do you like hunting too?",
+			"We ssshould go hunting fluffy friend",
+			"Yesss... the nossse nuzzlesss...",
+			"Floran can fight kyani all time.",
+			"Look at Floran pretty leavesss.",
+			"kyani want hunt together?",
+			"Floran dance if kyani play drum!"
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/glitch/kyani",
+		"value":[
+			"Cordial. Well met.",
+			"Cordial. Greetings alien.",
+			"Bothered. Please don't touch everything.",
+			"Delighted. What wondrous plumage, may I obtain some?",
+			"Curious. What interesting physique, how have you lasted so long?",
+			"Flirtatious. I have some objects of value if you want.",
+			"Careful. May I stroke you?",
+			"Greeting. Welcome to our village!",
+			"Fascination. Why are your ears so big?",
+			"Curious. Can you hear with those ear flaps?",
+			"Disdain. Babies don't come from nuzzles. They come from building.",
+			"Hesitant. I don't know if even we could lift your kind.",
+			"Saddened. Perhaps someday you'll find your village again.",
+			"Amused. Awwww."
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/human/kyani",
+		"value":[
+			"Oh no, the invasion's begun!",
+			"Please don't come too close, I think I might be allergic.",
+			"You're soft. Can I cuddle you?",
+			"Such a cute kyani!",
+			"Aren't you supposed to be covered in scales?",
+			"Nose nuzzling? Sure, why not!",
+			"Are you sure you're not a Pokemon?",
+			"Do you smell odd when you get wet?",
+			"Be at peace, kyani.",
+			"Peace be with you.",
+			"You don't have fleas, do you?",
+			"I like your ears. They're really unique."
+		]
+	},
+	{
+		"op":"add",
+		"path":"/converse/hylotl/kyani",
+		"value":[
+			"Welcome, traveler. Please marvel at our exquisite building designs.",
+			"Would you like to learn about our architecture?",
+			"Have you and your kind improved your art lately?"
+		]
+	}
+]

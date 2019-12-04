@@ -1,0 +1,13 @@
+[
+	{
+		"op":"add",
+		"path":"/helpme/kyani",
+		"value":{
+			"default":[
+				"Ow! Leave me alone!",
+				"Gaian Spare me!",
+				"Somebody help!"
+			]
+		}
+	}
+]
