@@ -7,13 +7,13 @@
 	},
 	"backgroundOverlays":[
 		{
-			"image":"Castigator.png",
-			"position":[8, 12],
+			"image":"kyaniT1.png",
+			"position":[17, 14],
 			"fullbright":true
 		},
 		{
-			"image":"Castigator.png",
-			"position":[8, 12]
+			"image":"kyaniT1.png",
+			"position":[17, 14]
 		}
 	],
 	"blockKey":"blockKey.config:blockKey",
