@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "kyanit5partkit", "count" : 5 },
+	{ "item" : "liquidanophium", "count" : 9 },
+    { "item" : "kyanit4chest", "count" : 1 },
+    { "item" : "canvas", "count" : 4 },
+    { "item" : "silk", "count" : 3 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit5chest", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

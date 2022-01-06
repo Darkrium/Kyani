@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 4 },
+	{ "item" : "anophiumblock", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 25 },
+    { "item" : "ironore", "count" : 4 }
+  ],
+  "output" : { "item" : "slopedkyanihullpanel", "count" : 25 },
+  "groups" : [ "kyani", "kyanitab1" ]
+}

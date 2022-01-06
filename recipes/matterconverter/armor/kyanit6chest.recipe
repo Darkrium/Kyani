@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "kyanit6partkit", "count" : 5 },
+	{ "item" : "liquidanophium", "count" : 9 },
+    { "item" : "kyanit5chest", "count" : 1 },
+    { "item" : "canvas", "count" : 4 },
+    { "item" : "silk", "count" : 3 },
+	{ "item" : "cottonwool", "count" : 2 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit6chest", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

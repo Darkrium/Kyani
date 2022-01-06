@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sand", "count" : 5 },
+	{ "item" : "anophiumglass", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 25 },
+    { "item" : "ironore", "count" : 4 }
+  ],
+  "output" : { "item" : "slopedkyaniglasspanel", "count" : 25 },
+  "groups" : [ "kyani", "kyanitab1" ]
+}

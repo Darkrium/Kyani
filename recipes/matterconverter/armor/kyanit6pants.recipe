@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kyanit6partkit", "count" : 3 },
+	{ "item" : "liquidanophium", "count" : 6 },
+    { "item" : "kyanit5pants", "count" : 1 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit6pants", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}
