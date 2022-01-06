@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"name": "kyanihouse1",
+		"species": "kyani",
+		"rules": [],
+		"anchor": ["kyanihouse1"],
+		"gravity": 80,
+		"maxRadius": 200,
+		"maxParts": 1,
+		"protected" : false
+	},
+	"parts": [{
+		"name": "kyanihouse1",
+		"rules": [
+			["maxSpawnCount", [1]]
+		],
+		"def": ["tmx", "kyanihouse1.json"]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"name": "kyaniwatchtower",
+		"species": "kyani",
+		"rules": [],
+		"anchor": ["kyaniwatchtower"],
+		"gravity": 80,
+		"maxRadius": 10000,
+		"maxParts": 1,
+	    "protected" : false
+	},
+	"parts": [{
+		"name": "kyaniwatchtower",
+		"rules": [
+			["maxSpawnCount", [1]]
+		],
+		"def": ["tmx", "kyaniwatchtower.json"]
+	}]
+}
