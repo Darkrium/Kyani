@@ -1,0 +1,26 @@
+{
+  "projectileName" : "firerailtorpedo",
+  "image" : "firerailtorpedo.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/acfireexplosionknockback.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "flippable" : true,
+  "power" : 9999.0,
+  "speed" : 1000.0,
+  "physics" : "rocket",
+  "damageType" : "ignoresdef",
+  "damageKind" : "fireplasma",
+
+  "scripts" : [ "railtorpedo.lua" ],
+  "maxSpeed" : 1000,
+  "controlForce" : 100
+}

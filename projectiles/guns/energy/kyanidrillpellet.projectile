@@ -1,0 +1,27 @@
+{
+  "projectileName" : "kyanidrillpellet",
+  "image" : "drillpellet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "drillpellet.png",
+  "physics" : "laser",
+  "timeToLive" : 0.25,
+  "periodicActions" : [
+  {
+    "time" : 0.01,
+    "action" : "explosion",
+    "foregroundRadius" : 2,
+    "backgroundRadius" : 2,
+    "explosiveDamageAmount" : 1,
+	"harvestLevel" : 99,
+    "delaySteps" : 2
+  }
+],
+  "movementSettings" : {
+  "collisionEnabled" : false
+},
+
+  "power" : 100,
+  "speed" : 50,
+  "damageKind" : "kyani_anophium"
+}

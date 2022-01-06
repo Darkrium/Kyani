@@ -1,0 +1,21 @@
+{
+  "projectileName" : "electricproximityshard",
+  "physics" : "disc",
+  "bounces" : -1,
+  "timeToLive" : 3,
+  "damageKindImage" : "electricicon.png",
+  "pointLight" : true,
+  "lightColor" : [60, 40, 80],
+  "image" : "electricproximityshard.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/acelectricexplosionknockback.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "electricplasma"
+}
