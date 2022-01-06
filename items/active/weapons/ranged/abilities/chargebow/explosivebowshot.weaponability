@@ -1,0 +1,74 @@
+{
+	"ability": {
+		"type": "explosivebowshot",
+		"class": "BowShot",
+		"name": "Explosive Shot",
+		"scripts": ["/items/active/weapons/ranged/abilities/chargebow/explosivebowshot.lua"],
+
+		"walkWhileFiring": true,
+
+		"fireOffset": [1.75, 0],
+
+		"energyPerShot": 180,
+
+		"cooldownTime": 0.4,
+
+		"inaccuracy": 0.0,
+
+		"drawFrameSelector": "bowImageSelector",
+		"drawPowerMultiplier": "drawTimeMultiplier",
+		"drawSpeedMultiplier": "drawTimeMultiplier",
+
+		"drawArmFrames": ["rotation", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+
+		"projectileType": "explosivebullet",
+		"powerProjectileTime": [0.9, 1, 1],
+		"projectileParameters": {
+			"speed": 85,
+			"power": 38,
+			"piercing": false,
+			"actionOnReap": [{
+				"action": "config",
+				"file": "/projectiles/explosions/regularexplosion2/<elementalType>explosionknockbackstatus.config"
+			}],
+			"timeToLive": 1.0
+		},
+		"powerProjectileType": "energyarrow",
+		"powerProjectileParameters": {
+			"speed": 100,
+			"power": 68,
+			"piercing": true,
+			"actionOnReap": [{
+				"action": "config",
+				"file": "/projectiles/explosions/regularexplosion2/<elementalType>explosionknockbackstatus.config"
+			}],
+			"timeToLive": 1.0
+		},
+		"stances": {
+			"idle": {
+				"armRotation": -30,
+				"weaponRotation": 0,
+				"allowRotate": true,
+				"allowFlip": true,
+				"twoHanded": true
+			},
+			"draw": {
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"allowRotate": true,
+				"allowFlip": true,
+				"twoHanded": true
+			},
+			"fire": {
+				"duration": 0.2,
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"allowRotate": false,
+				"allowFlip": true,
+				"twoHanded": true,
+
+				"frontArmFrame": "idle.3"
+			}
+		}
+	}
+}
