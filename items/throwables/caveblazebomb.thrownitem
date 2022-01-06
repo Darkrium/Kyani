@@ -1,0 +1,30 @@
+{
+  "itemName" : "caveblazerocket",
+  "price" : 750,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "caveblazebomb.png",
+  "image" : "caveblazebomb.png",
+  "shortdescription" : "Cave Blaze Rocket",
+  "description" : "Just set it to fly if you wanna dirt and other useless stuff outta your way.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.1,
+
+  "projectileType" : "zcaveblaze",
+  "projectileConfig" : {
+    "speed" : 100,
+    "power" : 75,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/gun/kyani_rocket_start.ogg" ]
+      }
+    ]
+  }
+}
