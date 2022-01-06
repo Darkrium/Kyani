@@ -1,0 +1,34 @@
+{
+  "objectName" : "kyanimark",
+  "colonyTags" : ["kyani","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 111,
+
+  "description" : "A symbol of Juronian national pride.",
+  "shortdescription" : "Kyani Mark",
+  "race" : "kyani",
+
+  "apexDescription" : "This symbol looks so plain, yet full of meanings.",
+  "avianDescription" : "This symbol looks like a bird!",
+  "floranDescription" : "Weird catssss' sssign.",
+  "glitchDescription" : "Curious. I have seen it in many kyani buildings, but what does it actually mean?",
+  "humanDescription" : "A symbol belonging to these weird Kyani.",
+  "hylotlDescription" : "So plain, yet so full of meanings.",
+  "novakidDescription" : "I ain't the one to find what it means. Cool symbol though.",
+  "kyaniDescription" : "Even after all disasters, Juroniankind still has their wings spread out wide, flying proudly.",
+
+  "inventoryIcon" : "kyanimarkicon.png",
+  "orientations" : [
+
+    {
+      "image" : "kyanimark.png",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+
+}
