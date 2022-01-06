@@ -1,0 +1,24 @@
+{
+  "materialId" : 3811,
+  "materialName" : "slopedkyaniglasspanel",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "slopedkyaniglasspanel",
+  "shortdescription" : "Sloped Anophium Glass Panel",
+  "description" : "I can clearly see my reflection, despite being unable to break this glass quickly.",
+  "glitchDescription" : "Attentive. I can see clearly though this transparent but durable glass.",
+  "floranDescription" : "Floran lookss pretty in weird cat glasssss.",
+  "novakidDescription" : "I can see clear through t'the other side of this glass, but I can't break it easily!",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slopedkyaniglasspanel.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 470
+  }
+}

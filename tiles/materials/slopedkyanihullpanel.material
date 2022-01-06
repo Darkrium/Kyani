@@ -1,0 +1,26 @@
+{
+  "materialId" : 3810,
+  "materialName" : "slopedkyanihullpanel",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "slopedkyanihullpanel",
+
+  "description" : "Very resilient panelling used in Kyani structures.",
+  "glitchDescription" : "Observant. This panelling is used only by the mysterious kyani for their ship construction.",
+  "floranDescription" : "Shiny sssmooth weird cat metal.",
+  "novakidDescription" : "Some thick metal plating, looks mighty solid.",
+  "kyaniDescription" : "Ahh, nothing better for a durable structure than an anophium panel.",
+  "shortdescription" : "Anopium Hull Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 36,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slopedkyanihullpanel.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "materialId" : 3812,
+  "materialName" : "slopedkyanisupportpanel",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "slopedkyanisupportpanel",
+
+  "description" : "Leightweight panels used in Kyani structures as supports.",
+  "glitchDescription" : "Observant. This panelling is used only by the mysterious kyani for their constructions.",
+  "floranDescription" : "Shiny sssmooth weird cat metal.",
+  "novakidDescription" : "Some light metal support beam, looks mighty solid.",
+  "kyaniDescription" : "This support beam is like bones in our structures.",
+  "shortdescription" : "Anopium Support Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 36,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slopedkyanisupportpanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}
