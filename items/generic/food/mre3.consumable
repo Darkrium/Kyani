@@ -1,0 +1,36 @@
+{
+  "itemName" : "kyanimre3",
+  "rarity" : "Rare",
+  "price" : 1000,
+  "category" : "preparedFood",
+  "inventoryIcon" : "kyanimre3.png",
+  "description" : "An intermediate-class MRE made for important units such as spies and infiltrators. So that your stomach doesn't make and accidental noise.",
+  "shortdescription" : "Kyani Tier 3 MRE",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 250
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 250
+    },
+	    {
+        "effect" : "runboostfood",
+        "duration" : 250
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 250
+    }
+  ] ],
+  "foodValue" : 95,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 15,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 11,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
