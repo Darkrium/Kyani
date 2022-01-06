@@ -1,0 +1,47 @@
+{
+  "objectName" : "kyani_resource_extractor",
+  "rarity" : "Rare",
+  "description" : "Derives useful things from useless blocks.",
+  "shortdescription" : "^purple;Component Separator^white;",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 7500,
+  "objectType" : "container",
+  "printable" : false,
+
+  "apexDescription" : "This Juronian machinery separates various blocks to obtain some useful items.",
+  "avianDescription" : "Ashes to riches, dust to things. Kyani seem to be using everything.",
+  "floranDescription" : "Weird metallic catsss made weird machine. Floran gets a rock, putsss it in thisss machine, getsss many sssmall ssshiny rocksss.",
+  "glitchDescription" : "Identification. This is a potentially dangerous machine mercilessly separating useless waste from useful reagents.",
+  "humanDescription" : "Just a machine to dump your crap in to get some useful things.",
+  "hylotlDescription" : "A Juronian device seeking diamonds among coals. Very poetic, if not more pragmatic.",
+  "novakidDescription" : "This lil' kyani thingy 'ere will make me rich.",
+  "kyaniDescription" : "Ah, another manifestation of our pragmaticness. Use this if you need to get many random things, not just anophium.",
+  
+  "scripts" : [ "/objects/crafting/resourceextractor/kyani_resource_extractor.lua"],
+  "scriptDelta" : 5,
+  
+  "openSounds" : [ "/sfx/objects/crafting/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/crafting/metalbox_close.ogg" ],
+  "slotCount" : 25,
+  "uiConfig" : "/objects/crafting/resourceextractor/kyani_resource_extractor.config",
+  "frameCooldown" : 57,
+  "autoCloseCooldown" : 3500,
+  
+  "animation" : "/objects/crafting/resourceextractor/kyani_resource_extractor.animation",
+
+  "animationParts" : {
+    "kyani_resource_extractor" : "kyani_resource_extractor.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inventoryIcon" : "kyani_resource_extractor_inv.png",
+  "orientations" : [
+    {
+      "image" : "kyani_resource_extractor.png:<color>.idle",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
