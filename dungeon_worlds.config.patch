@@ -1,0 +1,19 @@
+[{
+	"op": "add",
+	"path": "/kyanicivilship",
+	"value": {
+		"primaryDungeon": "kyanicivilship",
+		"threatLevel": 1,
+		"gravity": 0,
+		"airless": true,
+		"worldSize": [1300, 200],
+		"dungeonBaseHeight": 150,
+		"dungeonSurfaceHeight": 150,
+		"ambientLightLevel": [32, 32, 32],
+		"ambientNoises": "/sfx/environmental/space_loop4.ogg",
+		"musicTrack": "/music/tranquility-base.ogg",
+		"environmentStatusEffects": ["biomeairless"],
+		"worldEdgeForceRegions": "TopAndBottom",
+		"biome": "space"
+	}
+}]
