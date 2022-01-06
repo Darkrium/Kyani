@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/kyani",
+    "value": {
+      "male": [
+        "/sfx/humanoid/kyani_talk1.ogg",
+        "/sfx/humanoid/kyani_talk2.ogg",
+        "/sfx/humanoid/kyani_talk6.ogg"
+      ],
+      "female": [
+        "/sfx/humanoid/kyani_talk3.ogg",
+        "/sfx/humanoid/kyani_talk4.ogg",
+        "/sfx/humanoid/kyani_talk5.ogg"
+      ]
+    }
+  }
+]
