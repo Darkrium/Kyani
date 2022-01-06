@@ -1,0 +1,15 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/kyani",
+		"value": {
+			"default": [
+				"Closer to stars, I will feel homely...",
+				"Mother void is awaiting for us to meet her closer.",
+				"Life aboard a spaceship... Is anything more exciting?",
+				"Away from the ground, from worries and small problems...",
+				"What lies next on the road ahead? Wars, serving justice, glory?"
+			]
+		}
+	}
+]

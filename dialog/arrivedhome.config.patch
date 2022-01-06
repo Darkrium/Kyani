@@ -1,0 +1,36 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/kyani",
+		"value": {
+			"default": [
+				"You called?",
+				"Is there something you need?",
+				"You wanna talk?",
+				"Hi. What's up?",
+				"You want something?"
+			],
+			"kyani": [
+				"Skies bless you. What was it?",
+				"Was I required for something?",
+				"Is there anything I can help you with?",
+				"Hello, what is up?",
+				"Savan quy'makarr'a?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/kyani",
+		"value": {
+			"default": [
+				"Skies blessed you for your kindness towards me.",
+				"Here, thank you for aiding me.",
+				"Myeha'kan, san'maa vyi.",
+				"Here's something for your troubles",
+				"Hey, here's a little something for you.",
+				"Here's a little thank you gift for you."
+			]
+		}
+	}
+]
