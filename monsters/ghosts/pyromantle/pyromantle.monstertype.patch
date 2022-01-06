@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/dropPools/0/firebow",
+    "value": "pyromantleHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/icebow",
+    "value": "pyromantleHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/poisonbow",
+    "value": "pyromantleHunting"
+  },
+    {
+    "op": "add",
+    "path": "/dropPools/0/kyani_anophium",
+    "value": "pyromantleAnophium"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/electricbow",
+    "value": "pyromantleHunting"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/dropPools/0/firebow",
+    "value": "taroniHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/icebow",
+    "value": "taroniHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/poisonbow",
+    "value": "taroniHunting"
+  },
+    {
+    "op": "add",
+    "path": "/dropPools/0/kyani_anophium",
+    "value": "taroniAnophium"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/electricbow",
+    "value": "taroniHunting"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/dropPools/0/firebow",
+    "value": "pipkinHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/icebow",
+    "value": "pipkinHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/poisonbow",
+    "value": "pipkinHunting"
+  },
+    {
+    "op": "add",
+    "path": "/dropPools/0/kyani_anophium",
+    "value": "pipkinAnophium"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/electricbow",
+    "value": "pipkinHunting"
+  }
+]
