@@ -1,21 +1,21 @@
 {
-	"config":{
-		"shipUpgrades":{
-			"capabilities":[],
-			"crewSize":2
-		}
-	},
-	"backgroundOverlays":[
-		{
-			"image":"kyaniT1.png",
-			"position":[17, 10],
-			"fullbright":true
-		},
-		{
-			"image":"kyaniT1.png",
-			"position":[17, 10]
-		}
-	],
-	"blockKey":"blockKey.config:blockKey",
-	"blockImage":"kyaniT0blocks.png"
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "crewSize" : 4
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "kyaniT1.png",
+      "position" : [9.5, 12.7],
+      "fullbright" : true
+    },
+    {
+      "image" : "kyaniT1lit.png",
+      "position" : [9.5, 12.7]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kyaniT0blocks.png"
 }
