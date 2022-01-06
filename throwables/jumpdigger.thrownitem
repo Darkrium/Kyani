@@ -1,0 +1,30 @@
+{
+  "itemName" : "jumpdigger",
+  "price" : 2750,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "jumpdigger.png",
+  "image" : "jumpdigger.png",
+  "shortdescription" : "Jumpdigger Rocket",
+  "description" : "Helps remove not needed buildings and ground",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.1,
+
+  "projectileType" : "jumpdigger",
+  "projectileConfig" : {
+    "speed" : 175,
+    "power" : 115,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/gun/kyani_rocket_start.ogg" ]
+      }
+    ]
+  }
+}

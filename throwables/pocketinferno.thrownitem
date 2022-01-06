@@ -1,0 +1,30 @@
+{
+  "itemName" : "pocketinferno",
+  "price" : 3000,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "pocketinferno.png",
+  "image" : "pocketinferno.png",
+  "shortdescription" : "Pocket Inferno Rocket",
+  "description" : "An inferno will be unleashed at the one it hits.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.1,
+
+  "projectileType" : "pocketinferno",
+  "projectileConfig" : {
+    "speed" : 175,
+    "power" : 300,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/gun/kyani_rocket_start.ogg" ]
+      }
+    ]
+  }
+}
