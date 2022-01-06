@@ -1,0 +1,11 @@
+{
+  "name" : "kyaniepp_glow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "kyaniepp_glow.lua"
+  ],
+
+  "animationConfig" : "kyaniepp_glow.animation"
+}

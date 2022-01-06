@@ -1,0 +1,16 @@
+{
+  "name" : "kyani_crit",
+  "blockingStat" : "kyani_critImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "kyani_crit.lua"
+  ],
+
+  "animationConfig" : "kyani_crit.animation",
+
+  "label" : "Owie!",
+  "icon" : "/stats/effects/kyani_crit.png"
+}

@@ -1,0 +1,13 @@
+{
+    "name" : "kyaniStuff",
+    "effectConfig" : {
+    },
+
+    "defaultDuration" : 3,
+
+    "animationConfig" : "kyaniStuff.animation",
+
+    "scripts" : [
+        "kyaniStuff.lua"
+    ]
+}

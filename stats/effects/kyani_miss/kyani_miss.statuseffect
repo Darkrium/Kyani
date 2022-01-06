@@ -1,0 +1,16 @@
+{
+  "name" : "kyani_miss",
+  "blockingStat" : "kyani_missImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "kyani_miss.lua"
+  ],
+
+  "animationConfig" : "kyani_miss.animation",
+
+  "label" : "Haha, loser!",
+  "icon" : "/stats/effects/kyani_miss.png"
+}
