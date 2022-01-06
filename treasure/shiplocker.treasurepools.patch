@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/kyaniStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	    {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "kyanit1sword_physical", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+		{"item" : [ "kyaniorigins-codex", 1 ]},
+		{"item" : [ "kyanicolonistdirectives-codex", 1 ]},
+		{"item" : [ "thegreatexodusch4-codex", 1 ]},
+		{"item" : [ "thegreatexodusch3-codex", 1 ]},
+		{"item" : [ "thegreatexodusch2-codex", 1 ]},
+		{"item" : [ "thegreatexodusch1-codex", 1 ]},
+        {"item" : [ "cannedfood", 1 ]}
+      ]
+    }]]
+  }
+]
