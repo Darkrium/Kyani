@@ -1,0 +1,61 @@
+{
+  "itemName" : "kyanit1shield",
+  "fixedLevel" : false,
+  "price" : 1020,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "shield",
+  "description" : "A force shield, with a 'no in, all out' function.",
+  "shortdescription" : "First Tier Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/kyanit1.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/kyanit1.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "shield" : { "properties" : {
+        "shieldPoly" : [ [-0.6, -2.6], [-0.6, 2.35], [0.85, 1.6], [0.85, -1.85] ]
+    }}}},
+    "sounds" : {
+      "raiseShield" : [ "/sfx/shield/kyanishieldraise.ogg" ],
+      "perfectBlock" : [ "/sfx/shield/kyanishieldperfectblock.ogg" ],
+      "block" : [ "/sfx/shield/kyanishieldblock.ogg" ],
+      "break" : [ "/sfx/shield/kyanishieldbreak.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 55,
+  "cooldownTime" : 0.5,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.3,
+
+  "knockback" : 10,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

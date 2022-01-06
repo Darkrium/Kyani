@@ -1,0 +1,61 @@
+{
+  "itemName" : "kyanit3shield",
+  "fixedLevel" : false,
+  "price" : 4080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "shield",
+  "description" : "Some mor ewidgets and fidgets on a previos base.",
+  "shortdescription" : "Third Tier Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/kyanit3.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/kyanit3.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "shield" : { "properties" : {
+        "shieldPoly" : [ [-0.8, -2.8], [-0.8, 2.55], [1.05, 1.8], [1.05, -2.05] ]
+    }}}},
+    "sounds" : {
+      "raiseShield" : [ "/sfx/shield/kyanishieldraise.ogg" ],
+      "perfectBlock" : [ "/sfx/shield/kyanishieldperfectblock.ogg" ],
+      "block" : [ "/sfx/shield/kyanishieldblock.ogg" ],
+      "break" : [ "/sfx/shield/kyanishieldbreak.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 85,
+  "cooldownTime" : 0.3,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.3,
+
+  "knockback" : 10,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
