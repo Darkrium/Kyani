@@ -1,0 +1,24 @@
+{
+  "projectileName" : "pocketinferno",
+  "image" : "pocketinferno.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [277, 277, 277],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/pocketinfernoexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 115,
+  "speed" : 300.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+    "damagePoly" : [ [-9, 0], [-7, -7], [0, -9], [7, -7], [9, 0], [7, 7], [0, 9], [-7, 7] ]
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "asteroidgrinder",
+  "image" : "asteroidgrinder.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 255],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/asteroidgrinderexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 140.0,
+  "speed" : 250.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-12, 0], [-10, -10], [0, -12], [10, -10], [12, 0], [10, 10], [0, 12], [-10, 10] ]
+}

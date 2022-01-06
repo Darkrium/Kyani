@@ -1,0 +1,21 @@
+{
+  "projectileName" : "pocketinfernoexplosion",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.0,
+  "image" : "pocketinferno.png",
+  "animationCycle" : 5,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/pocketinfernoexplosion.config"
+    }
+  ],
+  "power" : 115,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-7, -7], [0, -9], [7, -7], [9, 0], [7, 7], [0, 9], [-7, 7] ],
+  "emitters" : [ "sparks" ]
+}

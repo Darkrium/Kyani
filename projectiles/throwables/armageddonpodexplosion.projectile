@@ -1,0 +1,21 @@
+{
+  "projectileName" : "armageddonpodexplosion",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.0,
+  "image" : "armageddonpod.png",
+  "animationCycle" : 5,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/armageddonpodexplosion.config"
+    }
+  ],
+  "power" : 115,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-12, 0], [-10, -10], [0, -12], [10, -10], [12, 0], [10, 10], [0, 12], [-10, 10] ],
+  "emitters" : [ "sparks" ]
+}

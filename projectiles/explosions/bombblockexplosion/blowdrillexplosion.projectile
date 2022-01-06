@@ -1,0 +1,13 @@
+{
+  "projectileName" : "blowdrillexplosion",
+  "image" : "bombblockexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-55, 0], [-40, -40], [0, -55], [40, -40], [55, 0], [40, 40], [0, 55], [-40, 40] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

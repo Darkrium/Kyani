@@ -1,0 +1,24 @@
+{
+  "projectileName" : "jumpdigger",
+  "image" : "jumpdigger.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 255],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/jumpdiggerexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 115.0,
+  "speed" : 250.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-7, -7], [0, -9], [7, -7], [9, 0], [7, 7], [0, 9], [-7, 7] ]
+}
