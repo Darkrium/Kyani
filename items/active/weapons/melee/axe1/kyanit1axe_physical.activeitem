@@ -23,7 +23,8 @@
   "primaryAbility" : {
     "fireTime" : 0.9,
     "baseDps" : 15,
-	"damageConfig": { "damageSourceKind" : "axe" }
+	"damageConfig": { "statusEffects": [ "anoph_melting" ],
+"damageSourceKind" : "axe" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

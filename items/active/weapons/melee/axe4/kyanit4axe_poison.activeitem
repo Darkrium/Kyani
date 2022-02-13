@@ -23,7 +23,8 @@
   "primaryAbility" : {
     "fireTime" : 0.6,
     "baseDps" : 48,
-	"damageConfig": { "damageSourceKind" : "poisonaxe" }
+	"damageConfig": { "statusEffects": [ "anoph_melting" ],
+"damageSourceKind" : "poisonaxe" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

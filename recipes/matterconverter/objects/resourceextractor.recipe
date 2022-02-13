@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "kyanit4partkit", "count" : 5 },
+    { "item" : "kyanicarcassparts", "count" : 5 },
+    { "item" : "diamond", "count" : 6 },
+	{ "item" : "liquidanophium", "count" : 90 },
+    { "item" : "refinedaegisalt", "count" : 1 },
+	{ "item" : "titaniumbar", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "kyani_resource_extractor",  "count" : 1},
+  "duration" : 0.7,
+  "groups" : [ "kyani", "kyanitab4" ]
+}

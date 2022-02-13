@@ -1,0 +1,41 @@
+[{
+		"op": "add",
+		"path": "/kyaniproto",
+		"value": {
+			"stats": {
+				"energy": 4,
+				"protection": 4
+			},
+			"partParameters": {
+"hazardImmunities": ["biomeradiation"] },
+			"partImages": {
+				"bodyBack": "body/juronianproto_back.png",
+				"bodyFront": "body/juronianproto_front.png"
+			},
+			"defaultPrimaryColors": ["4a669a", "4c81e5", "6d9dec", "8fb8f2"],
+			"defaultSecondaryColors": ["931d93", "ae2cae", "cd22cd", "7c227c"],
+			"animationCustom": {}
+		}
+	},
+
+	{
+		"op": "add",
+		"path": "/kyani",
+		"value": {
+			"stats": {
+				"energy": 6,
+				"protection": 7
+			},
+			"partParameters": {
+				"hazardImmunities": ["biomeradiation", "biomecold", "biomeheat"]
+			},
+			"partImages": {
+				"bodyFront": "body/juronian.png",
+				"bodyFullbright": "body/juronian_fullbright.png"
+			},
+			"defaultPrimaryColors": ["4a669a", "4c81e5", "6d9dec", "8fb8f2"],
+			"defaultSecondaryColors": ["931d93", "ae2cae", "cd22cd", "7c227c"],
+			"animationCustom": {}
+		}
+	}
+]

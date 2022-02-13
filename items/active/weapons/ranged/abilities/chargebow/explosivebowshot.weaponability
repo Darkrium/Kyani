@@ -9,7 +9,7 @@
 
 		"fireOffset": [1.75, 0],
 
-		"energyPerShot": 180,
+		"energyPerShot": 270,
 
 		"cooldownTime": 0.4,
 
@@ -25,7 +25,7 @@
 		"powerProjectileTime": [0.9, 1, 1],
 		"projectileParameters": {
 			"speed": 85,
-			"power": 38,
+			"power": 34,
 			"piercing": false,
 			"actionOnReap": [{
 				"action": "config",
@@ -36,7 +36,7 @@
 		"powerProjectileType": "energyarrow",
 		"powerProjectileParameters": {
 			"speed": 100,
-			"power": 68,
+			"power": 60,
 			"piercing": true,
 			"actionOnReap": [{
 				"action": "config",

@@ -38,16 +38,16 @@
 	"projectileType": "poisonphasebullet", 
     "powerProjectileType" : "poisonbreachbullet", 
     "projectileParameters" : {
-      "power" : 90
+      "power" : 82
     }
   },
     "altAbilityType" : "explosivebowshot",
   "altAbility" : {
    "projectileParameters" : {
-      "power" : 105
+      "power" : 98
     },
 	"powerProjectileParameters" : {
-      "power" : 154
+      "power" : 138
     }
   },
   "builder" : "/items/buildscripts/buildbow.lua"

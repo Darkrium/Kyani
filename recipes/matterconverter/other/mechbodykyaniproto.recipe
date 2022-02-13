@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "mechbodyhumanproto", "count" : 1 },
+    { "item" : "kyanit1partkit", "count" : 7 },
+    { "item" : "kyanit2partkit", "count" : 4 },
+    { "item" : "kyanit3partkit", "count" : 8 },
+    { "item" : "kyanit4partkit", "count" : 5 },
+    { "item" : "liquidanophium", "count" : 40 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "mechbodykyaniproto", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

@@ -5,7 +5,7 @@
     "scripts" : ["/items/active/weapons/ranged/abilities/railgun/railgunflamethrower.lua"],
     "class" : "FlamethrowerAttack",
 
-    "baseDps" : 564,
+    "baseDps" : 333,
     "energyUsage" : 90,
     "fireTime" : 0.01,
     "inaccuracy" : 0.05,

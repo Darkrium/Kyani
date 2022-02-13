@@ -23,7 +23,8 @@
   "primaryAbility" : {
     "fireTime" : 0.7,
     "baseDps" : 37,
-	"damageConfig": { "damageSourceKind" : "electricaxe" }
+	"damageConfig": { "statusEffects": [ "anoph_melting" ],
+"damageSourceKind" : "electricaxe" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

@@ -21,7 +21,7 @@
   "elementalType" : "electric",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 0.7,
+    "fireTime" : 0.9,
     "baseDps" : 72,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
       "damageSourceKind" : "electrichammer" }

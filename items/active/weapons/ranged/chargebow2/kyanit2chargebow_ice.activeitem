@@ -38,7 +38,7 @@
 	"projectileType": "icephasebullet", 
     "powerProjectileType" : "icebreachbullet", 
     "projectileParameters" : {
-      "power" : 60
+      "power" : 54
 	  }
   },
   "altAbilityType" : "explosivebowshot",
@@ -47,7 +47,7 @@
       "power" : 56
     },
 	"powerProjectileParameters" : {
-      "power" : 100
+      "power" : 92
     }
   },
   "builder" : "/items/buildscripts/buildbow.lua"

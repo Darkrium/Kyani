@@ -21,7 +21,7 @@
   "elementalType" : "poison",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 0.6,
+    "fireTime" : 0.8,
     "baseDps" : 94,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
       "damageSourceKind" : "poisonhammer" }

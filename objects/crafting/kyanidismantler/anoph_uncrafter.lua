@@ -1,22 +1,22 @@
 function init(virtual)
 	weaponLevelKinds = { --what materials are produced by generated weapons of X level, higher will be as level 6
-	[1] = {"kyanit1partkit", "kyanit1partkit", "kyanit2partkit", "kyanicarcassparts"},
-	[2] = {"kyanit3partkit", "kyanit3partkit", "kyanit3partkit", "kyanit3partkit", "silverbar", "silverbar", "kyanit1partkit", "kyanicarcassparts"},
-	[3] = {"kyanit4partkit", "kyanit4partkit", "kyanit4partkit", "kyanit4partkit", "goldbar", "goldbar", "kyanit3partkit", "silverbar"},
-	[4] = {"kyanit5partkit", "kyanit6partkit", "kyanit7partkit", "kyanit5partkit", "kyanit6partkit", "kyanit7partkit", "diamond", "diamond", "kyanit4partkit", "goldbar"},
-	[5] = {"kyanitultrapartkit", "kyanitultrapartkit", "kyanitultrapartkit", "diamond", "diamond", "diamond", "kyanit5partkit", "kyanit6partkit", "kyanit7partkit"}
+	[1] = {"kyanit1partkit", "kyanit2partkit"},
+	[2] = {"kyanit3partkit", "kyanit3partkit", "silverbar", "kyanit1partkit"},
+	[3] = {"kyanit4partkit", "kyanit4partkit", "goldbar", "kyanit3partkit", "silverbar"},
+	[4] = {"kyanit5partkit", "kyanit6partkit", "diamond", "kyanit4partkit", "goldbar"},
+	[5] = {"diamond", "diamond", "kyanit5partkit", "kyanit6partkit", "kyanit7partkit"}
 	}
 	weaponTypeOutputAmounts = { --reads weaponType for a string, returns this many random items from weaponLevelKinds
-	["dagger"] = 3,
-	["short"] = 3,
-	["pistol"] = 3,
-	["rocket"] = 5,
-	["revolver"] = 3,
-	["grenade"] = 5,
-	["hammer"] = 5,
-	["axe"] = 5,
-	["fist"] = 3,
-	["DEFAULT"] = 4 --rifles, leveled shields, everything else
+	["dagger"] = 2,
+	["short"] = 2,
+	["pistol"] = 2,
+	["rocket"] = 4,
+	["revolver"] = 2,
+	["grenade"] = 4,
+	["hammer"] = 4,
+	["axe"] = 4,
+	["fist"] = 2,
+	["DEFAULT"] = 3 --rifles, leveled shields, everything else
 	}
 	manualRecipes = { --custom uncrafts, unaffected by output modifiers
 	["shield"] = {["count"] = 300, ["parameters"] = {}, ["name"] = "money"}, 

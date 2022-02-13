@@ -38,7 +38,7 @@
 	"projectileType": "electricphasebullet",
     "powerProjectileType" : "electricbreachbullet", 
     "projectileParameters" : {
-      "power" : 45
+      "power" : 40
     }
   },
   "altAbilityType" : "explosivebowshot",

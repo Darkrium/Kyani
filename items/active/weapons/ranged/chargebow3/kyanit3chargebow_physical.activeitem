@@ -38,7 +38,7 @@
 	"projectileType": "phasebullet", 
     "powerProjectileType" : "breachbullet", 
     "projectileParameters" : {
-      "power" : 75
+      "power" : 67
     }
   },
   "altAbilityType" : "explosivebowshot",
@@ -47,7 +47,7 @@
       "power" : 71
     },
 	"powerProjectileParameters" : {
-      "power" : 127
+      "power" : 118
     }
   },
   "builder" : "/items/buildscripts/buildbow.lua"

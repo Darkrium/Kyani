@@ -21,7 +21,7 @@
   "elementalType" : "ice",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 0.8,
+    "fireTime" : 0.9,
     "baseDps" : 61,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
       "damageSourceKind" : "icehammer" }

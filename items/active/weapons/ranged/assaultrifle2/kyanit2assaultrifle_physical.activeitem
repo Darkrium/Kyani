@@ -19,7 +19,7 @@
     "middle" : "kyanit2assaultrifle.png",
    "barrel": "",
 		"minirailgun": "minirailgun.png",
-		"muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
+		"muzzleFlash": "/items/active/weapons/ranged/armuzzleflash.png"
 	},
 	"animationCustom": {
 		"animatedParts": {
@@ -104,7 +104,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.095,
-    "baseDps": 28,
+    "baseDps": 24,
     "energyUsage" : 28.5,
     "inaccuracy" : 0.02,
 

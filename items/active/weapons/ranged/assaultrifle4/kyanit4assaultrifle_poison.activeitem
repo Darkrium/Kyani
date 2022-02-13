@@ -19,7 +19,7 @@
     "middle" : "kyanit4assaultrifle_poison.png",
     "barrel": "",
 		"minirailgun": "minirailgun.png",
-		"muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
+		"muzzleFlash": "/items/active/weapons/ranged/armuzzleflash.png"
 	},
 	"animationCustom": {
 		"animatedParts": {
@@ -103,7 +103,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.055,
-    "baseDps": 36,
+    "baseDps": 28,
     "energyUsage" : 25.5,
     "inaccuracy" : 0,
 

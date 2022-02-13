@@ -19,7 +19,7 @@
     "middle" : "kyanit2sniperrifle_electric.png",
     "barrel": "",
 		"minirailgun": "minirailgun.png",
-		"muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
+		"muzzleFlash": "/items/active/weapons/ranged/armuzzleflash.png"
 	},
 	"animationCustom": {
 		"animatedParts": {
@@ -104,7 +104,7 @@
     "class" : "GunFire",
 
     "fireTime" : 1.3,
-    "baseDps" : 28,
+    "baseDps" : 24,
     "energyUsage" : 23,
     "inaccuracy" : 0.004,
 

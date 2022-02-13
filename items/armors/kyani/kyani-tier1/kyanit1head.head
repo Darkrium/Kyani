@@ -26,12 +26,12 @@
     {
       "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 7.5
+      "amount" : 1.5
     },
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 7.5
+      "amount" : 1.5
     }
   ],
   "itemTags" : [ "kyani", "tier1armour" ],

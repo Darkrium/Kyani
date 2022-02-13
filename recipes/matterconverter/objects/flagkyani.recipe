@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "kyanit1partkit", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "duration" : 0.5,
+  "output" : {
+    "item" : "flagkyani",
+    "count" : 1
+  },
+  "groups" : [ "kyani", "kyanitab4" ]
+}
