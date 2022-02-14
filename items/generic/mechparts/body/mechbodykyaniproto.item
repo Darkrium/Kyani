@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodykyaniproto",
+  "price" : 66500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodykyaniproto.png",
+  "description" : "A modified mech body based on a human mech, mass-produced for Juronians.",
+  "shortdescription" : "T1 Kyani Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "kyaniproto"]
+}

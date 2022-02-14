@@ -1,0 +1,302 @@
+[
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons", 
+	"value" : [] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons", 
+	"value" : [] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons", 
+	"value" : [] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/arctic/layers/surface/dungeons", 
+	"value" : [] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/moon/layers/surface/dungeons/-",
+ 	"value" : [4.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/barren/layers/surface/dungeons/-",
+ 	"value" : [4.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+ 	"value" : [4.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/scorchedcity/layers/surface/dungeons/-",
+ 	"value" : [4.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons/-",
+ 	"value" : [2.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons/-",
+ 	"value" : [2.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons/-",
+ 	"value" : [2.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons/-",
+ 	"value" : [2.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/magma/layers/surface/dungeons/-",
+ 	"value" : [2.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+ 	"value" : [3.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+ 	"value" : [3.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+ 	"value" : [3.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+ 	"value" : [3.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/volcanic/layers/surface/dungeons/-",
+ 	"value" : [3.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/savannah/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/garden/layers/surface/dungeons/-",
+ 	"value" : [0.1, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/garden/layers/surface/dungeons/-",
+ 	"value" : [0.1, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/forest/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/forest/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/forest/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/forest/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/midnight/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanistorage"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyaniwatchtower"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanispaceship"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-",
+ 	"value" : [1.0, "kyanitallhouse"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-",
+ 	"value" : [1.5, "kyanihouse1"] 
+}
+]

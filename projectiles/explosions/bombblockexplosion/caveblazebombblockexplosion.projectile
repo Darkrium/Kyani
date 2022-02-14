@@ -1,0 +1,13 @@
+{
+  "projectileName" : "caveblazebombblockexplosion",
+  "image" : "bombblockexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-45, 0], [-30, -30], [0, -45], [30, -30], [45, 0], [30, 30], [0, 45], [-30, 30] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

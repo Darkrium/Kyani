@@ -1,0 +1,11 @@
+{
+  "itemName" : "anophiumpipe",
+  "price" : 50,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "anophiumpipeicon.png",
+  "shortdescription" : "Anophium Pipe",
+  "description" : "Anophium piping for your plumbing needs. Can also double as support.",
+
+  "materialId" : 3807
+}

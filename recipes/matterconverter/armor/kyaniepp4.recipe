@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "kyaniepp3", "count" : 1 },
+    { "item" : "kyanit7partkit", "count" : 1 },
+	{ "item" : "kyanit6partkit", "count" : 1 },
+	{ "item" : "kyanit5partkit", "count" : 1 },
+    { "item" : "liquidanophium", "count" : 14 },
+	{ "item" : "kyanit4healthpack", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "kyaniepp4", "count" : 1 },
+  "groups" : [ "kyani", "hazardgear", "kyanitab2" ]
+}

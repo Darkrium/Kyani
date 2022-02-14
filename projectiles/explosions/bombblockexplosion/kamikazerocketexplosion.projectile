@@ -1,0 +1,14 @@
+{
+  "projectileName" : "kamikazerocketexplosion",
+"image" : "bombblockexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-100, 0], [-70, -70], [0, -100], [70, -70], [100, 0], [70, 70], [0, 100], [-70, 70] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}
+

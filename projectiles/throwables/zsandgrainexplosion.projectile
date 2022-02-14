@@ -1,0 +1,21 @@
+{
+  "projectileName" : "zsandgrainexplosion",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.0,
+  "image" : "zsandgrain.png",
+  "animationCycle" : 5,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/sandgrainbombblockexplosion.config"
+    }
+  ],
+  "power" : 75,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

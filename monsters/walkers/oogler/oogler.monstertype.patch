@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/dropPools/0/firebow",
+    "value": "ooglerHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/icebow",
+    "value": "ooglerHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/poisonbow",
+    "value": "ooglerHunting"
+  },
+    {
+    "op": "add",
+    "path": "/dropPools/0/kyani_anophium",
+    "value": "ooglerAnophium"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/electricbow",
+    "value": "ooglerHunting"
+  }
+]

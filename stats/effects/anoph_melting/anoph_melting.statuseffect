@@ -1,0 +1,16 @@
+{
+  "name" : "anoph_melting",
+  "blockingStat" : "anophiumImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "anoph_melting.lua"
+  ],
+
+  "animationConfig" : "anoph_melting.animation",
+
+  "label" : "Anophium Melting",
+  "icon" : "/items/liquids/liquidanophium.png"
+}

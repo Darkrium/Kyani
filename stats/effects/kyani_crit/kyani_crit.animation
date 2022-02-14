@@ -1,0 +1,38 @@
+{
+  "particleEmitters" : {
+    "criticalhit" : {
+      "enabled" : true,
+      "emissionRate" : 1.0,
+      "particles" : [
+        {
+          "particle" : {
+		  "type" : "text",
+		  "size" : 0.5,
+		  "text" : "^#D357E6;Ouch!",
+		  "color" : [230, 87, 140, 255],
+		  "light" : [0, 0, 0],
+		  "initialVelocity" : [0, 1.0],
+		  "finalVelocity" : [0, 2.0],
+		  "approach" : [1, 0],
+		  "position" : [0, 2],
+		  "timeToLive" : 1.0,
+		  "layer" : "front",
+		  "destructionAction" : "shrink",
+		  "destructionTime" : 0.3,
+		  "variance" : {
+		  "initialVelocity" : [1, 3]
+		  },
+		  "flippable" : false
+          }
+        }
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [50, 0, 0]
+    }
+  }
+}

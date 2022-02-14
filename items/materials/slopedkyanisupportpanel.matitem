@@ -1,0 +1,16 @@
+{
+  "itemName" : "slopedkyanisupportpanel",
+  "price" : 50,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "slopedkyanisupportpanel.png",
+  "shortdescription" : "Anophium Support Panel",
+   "description" : "Leightweight panels used in Kyani structures as supports.",
+   "glitchDescription" : "Observant. This panelling is used only by the mysterious kyani for their constructions.",
+  "floranDescription" : "Shiny sssmooth weird cat metal.",
+  "novakidDescription" : "Some light metal support beam, looks mighty solid.",
+  "kyaniDescription" : "This support beam is like bones in our structures.",
+
+  "materialId" : 3812,
+  "learnBlueprintsOnPickup" : [ "slopedkyanisupportpanel" ]
+}

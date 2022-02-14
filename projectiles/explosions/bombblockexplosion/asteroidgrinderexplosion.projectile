@@ -1,0 +1,13 @@
+{
+  "projectileName" : "asteroidgrinderexplosion",
+  "image" : "bombblockexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-100, 0], [-85, -85], [0, -100], [85, -85], [100, 0], [85, 85], [0, 100], [-85, 85] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

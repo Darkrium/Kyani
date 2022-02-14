@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/dropPools/0/firebow",
+    "value": "gleapHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/icebow",
+    "value": "gleapHunting"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/poisonbow",
+    "value": "gleapHunting"
+  },
+    {
+    "op": "add",
+    "path": "/dropPools/0/kyani_anophium",
+    "value": "gleapAnophium"
+  },
+  {
+    "op": "add",
+    "path": "/dropPools/0/electricbow",
+    "value": "gleapHunting"
+  }
+]

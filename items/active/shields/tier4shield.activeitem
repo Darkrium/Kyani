@@ -1,0 +1,61 @@
+{
+  "itemName" : "kyanit4shield",
+  "fixedLevel" : false,
+  "price" : 8160,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "shield",
+  "description" : "Better than anything you'd need.",
+  "shortdescription" : "Fourth Tier Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/kyanit4.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/kyanit4.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "shield" : { "properties" : {
+        "shieldPoly" : [ [-0.9, -2.9], [-0.9, 2.65], [1.15, 1.9], [1.15, -2.15] ]
+    }}}},
+    "sounds" : {
+      "raiseShield" : [ "/sfx/shield/kyanishieldraise.ogg" ],
+      "perfectBlock" : [ "/sfx/shield/kyanishieldperfectblock.ogg" ],
+      "block" : [ "/sfx/shield/kyanishieldblock.ogg" ],
+      "break" : [ "/sfx/shield/kyanishieldbreak.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 100,
+  "cooldownTime" : 0.2,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.3,
+
+  "knockback" : 10,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

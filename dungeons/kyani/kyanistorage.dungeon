@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"name": "kyanistorage",
+		"species": "kyani",
+		"rules": [],
+		"anchor": ["kyanistorage"],
+		"gravity": 80,
+		"maxRadius": 10000,
+		"maxParts": 1,
+		"protected" : false
+	},
+	"parts": [{
+		"name": "kyanistorage",
+		"rules": [
+			["maxSpawnCount", [1]]
+		],
+		"def": ["tmx", "kyanistorage.json"]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	"input": [{
+			"item": "kyanit1partkit",
+			"count": 3
+		},
+		{
+			"item": "liquidanophium",
+			"count": 8
+		},
+		{
+			"item": "smallbattery",
+			"count": 1
+		},
+		{
+			"item": "wire",
+			"count": 2
+		}
+	],
+	"duration": 0.5,
+	"output": {
+		"item": "kyaniairpulsar",
+		"count": 1
+	},
+	"groups": ["kyani", "kyanitab4"]
+}

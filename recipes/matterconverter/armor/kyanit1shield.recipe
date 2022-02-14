@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kyanit1partkit", "count" : 5 },
+	{ "item" : "liquidanophium", "count" : 11 },
+    { "item" : "kyanicarcassparts", "count" : 1 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "kyanit1shield", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

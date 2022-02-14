@@ -1,0 +1,32 @@
+{
+  "itemName" : "kyanimre2",
+  "rarity" : "Uncommon",
+  "price" : 700,
+  "category" : "preparedFood",
+  "inventoryIcon" : "kyanimre2.png",
+  "description" : "A nice MRE for more important personnel, so that you don't need to have hunger in your plans.",
+  "shortdescription" : "Kyani Tier 2 MRE",
+  "effects" : [ [    
+    {
+        "effect" : "ragefood",
+        "duration" : 200
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 200
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 200
+    }
+  ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 15,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 11,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

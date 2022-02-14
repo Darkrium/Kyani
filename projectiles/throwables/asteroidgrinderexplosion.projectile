@@ -1,0 +1,21 @@
+{
+  "projectileName" : "asteroidgrinderexplosion",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.0,
+  "image" : "asteroidgrinder.png",
+  "animationCycle" : 7,
+  "lightColor" : [107, 64, 0],
+  "frameNumber" : 9,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/asteroidgrinderexplosion.config"
+    }
+  ],
+  "power" : 140,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-12, 0], [-10, -10], [0, -12], [10, -10], [12, 0], [10, 10], [0, 12], [-10, 10] ],
+  "emitters" : [ "sparks" ]
+}

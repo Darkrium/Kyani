@@ -1,0 +1,24 @@
+{
+  "projectileName" : "zsandgrain",
+  "image" : "zsandgrain.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 255],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/sandgrainbombblockexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 75.0,
+  "speed" : 200.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

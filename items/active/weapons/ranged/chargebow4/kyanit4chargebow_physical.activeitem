@@ -1,0 +1,54 @@
+{
+  "itemName" : "kyanit4chargebow_physical",
+  "price" : 64000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Shoot 'em right through!",
+  "shortdescription" : "Lemin Chargebow",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bow","kyani"],
+  "level" : 4,
+
+  "inventoryIcon" : "kyanit4chargebow_physical.png",
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "kyanit4chargebowfull_physical.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/cbdraw.ogg" ],
+      "release" : [ "/sfx/gun/cbrelease.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/cbperfectrelease.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+	"projectileType": "phasebullet", 
+    "powerProjectileType" : "breachbullet", 
+    "projectileParameters" : {
+      "power" : 82
+    }
+  },
+    "altAbilityType" : "explosivebowshot",
+  "altAbility" : {
+   "projectileParameters" : {
+      "power" : 98
+    },
+	"powerProjectileParameters" : {
+      "power" : 138
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

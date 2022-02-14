@@ -1,0 +1,41 @@
+{
+	"type" : "kyanivisitor",
+	"baseType" : "outpostvisitor",
+	"statusControllerSettings" : {
+		"statusProperties" : {
+			"effectDirectives" : ""
+		}
+	},
+	"scriptConfig" : {
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Greetings. May your kin prosper.",
+						"Myakahat Juaqi.",
+						"Ah no, I'm just looking around."
+					],
+					"kyani" : [
+						"Just looking around, thank you.",
+						"May the stars light your path.",
+						"Gau an Hilli."
+					]
+				}
+			}
+		}
+	},
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [
+							{ "name" : "kyanioutfit1chest", "parameters" : { "colorIndex" : [1] } }
+						],
+						"legs" : [
+							{ "name" : "kyanioutfit1legs", "parameters" : { "colorIndex" : [0] } }
+						]
+					}
+				] ]
+		]
+	}
+}

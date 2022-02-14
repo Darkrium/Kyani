@@ -1,0 +1,22 @@
+{
+  "projectileName" : "electrickyanirailgunbullet",
+  "image" : "electricrailgunbullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "piercing" : true,
+  "physics" : "bullet",
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "movementSettings" : {
+  "collisionEnabled" : false
+},
+  "power" : 5.0,
+  "speed" : 350,
+  "damageKind" : "electricbow"
+}

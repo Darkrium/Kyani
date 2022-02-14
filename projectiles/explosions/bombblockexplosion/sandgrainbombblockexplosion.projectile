@@ -1,0 +1,13 @@
+{
+  "projectileName" : "sandgrainbombblockexplosion",
+  "image" : "bombblockexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-90, 0], [-60, -60], [0, -90], [60, -60], [90, 0], [60, 60], [0, 90], [-60, 60] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

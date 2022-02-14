@@ -1,0 +1,23 @@
+{
+  "projectileName" : "anophiumfire",
+  "image" : "bluefire.png",
+  "physics" : "flame",
+  "animationCycle" : 1,
+  "animationLoops" : false,
+  "frameNumber" : 12,
+  "winddownFrames" : 3,
+  "intangibleWinddown" : true,
+  "power" : 200,
+  "speed" : 75,
+  "timeToLive" : 1.0,
+  "bounces" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [153, 225, 225],
+  "damageKind" : "kyani_anophium",
+  "icon" : "/items/liquids/liquidanophium.png",
+  "statusEffects" : [
+    "anoph_melting"
+  ],
+  "hydrophobic" : false
+}

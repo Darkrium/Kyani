@@ -1,0 +1,19 @@
+[{
+		"op": "add",
+		"path": "/kyani_anophium",
+		"value": {
+			"resistanceStat": "kyani_anophiumResistance"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kyani_anophium/damageNumberParticles",
+		"value": {
+			"hit": "kyani_anophiumdamagenumber",
+			"stronghit": "kyani_anophiumdamagenumber",
+			"weakhit": "kyani_anophiumdamagenumber",
+			"shieldhit": "kyani_anophiumdamagenumber",
+			"kill": "kyani_anophiumdamagenumber"
+		}
+	}
+]

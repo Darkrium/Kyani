@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "liquidanophium", "count" : 4 },
+	{ "item" : "kyanicarcassparts", "count" : 2 },
+    { "item" : "kyanit1partkit", "count" : 2 },
+    { "item" : "cottonwool", "count" : 3}
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "anophiumbed", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

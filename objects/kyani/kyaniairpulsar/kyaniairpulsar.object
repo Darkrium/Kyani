@@ -1,0 +1,38 @@
+{
+  "objectName" : "kyaniairpulsar",
+  "colonyTags" : ["kyani","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 133,
+
+  "description" : "I think it's a vent. The pulses of fresh air coming from it made me think so.",
+  "shortdescription" : "Kyani Pulsar",
+  "race" : "kyani",
+
+  "apexDescription" : "This is a rather strange ventilation. But at least it works very well.",
+  "avianDescription" : "As long as I can enjoy fresh air, the looks of it don't matter.",
+  "floranDescription" : "Weird catsss have made a weird vent.",
+  "glitchDescription" : "Astonished. I don't understand how it works, but the air coming from it is very fresh and pure.",
+  "humanDescription" : "Woah, that's a one strange vent. At least it works really good.",
+  "hylotlDescription" : "The air is very fresh, but it has no humidity in it. Why?",
+  "novakidDescription" : "That's a one strange wind blower.",
+  "kyaniDescription" : "Heh, these are mostly made for spaceships or underground constructs for climate control.",
+
+  "inventoryIcon" : "kyaniairpulsaricon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "kyaniairpulsar.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 7,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/clock_loop.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+
+}

@@ -1,0 +1,96 @@
+{
+  "itemName" : "kyanit1autodrill",
+  "price" : 68800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Superior mining tool. Breaks through walls and foes both.",
+  "shortdescription" : "Tier 1 Autodrill",
+  "tooltipKind" : "gun",
+  "category" : "Autodrill",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","drill","kyani"],
+  "level" : 5,
+
+  "inventoryIcon" : "kyaniautodrill1.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "kyaniautodrill1.png",
+    "barrel" : "",
+	"muzzleFlash" : "/items/active/weapons/ranged/admuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/autodf1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0, -0.125],
+  "muzzleOffset" : [2.2, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.1,
+    "baseDps" : 27.5,
+    "energyUsage" : 15,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "kyanidrillpellet",
+	"projectileParameters": {
+		"periodicActions": [
+		   {
+    "time" : 0.01,
+    "action" : "explosion",
+    "foregroundRadius" : 2,
+    "backgroundRadius" : 2,
+    "explosiveDamageAmount" : 0.625,
+	"harvestLevel" : 99,
+    "delaySteps" : 2
+		   }
+		]
+	},
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "kyaniitemmagnet",
+  
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

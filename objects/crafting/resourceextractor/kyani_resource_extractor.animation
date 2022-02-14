@@ -1,0 +1,65 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "extractorState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+		  "active" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "kyani_resource_extractor" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "extractorState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "inputerror" : {
+      "particles" : [
+        {
+          "particle" : "kyani_resext_error_input",
+          "offset" : [0, 3]
+        }
+	  ]
+    },
+    "spaceerror" : {
+      "particles" : [
+        {
+          "particle" : "kyani_resext_error_space",
+          "offset" : [0, 3]
+        }
+	  ]
+    }
+  },
+  
+  "sounds" : {
+    "extract" : [ "/sfx/tech/vehicle_appear1.ogg" ],
+    "error" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

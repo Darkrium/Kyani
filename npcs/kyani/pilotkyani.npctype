@@ -1,0 +1,155 @@
+{
+	"type": "pilotkyani",
+
+	"baseType": "guard",
+
+	"scriptConfig": {
+		"questGenerator": {
+			"pools": [],
+			"enableParticipation": false
+		},
+		    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/kyani.config:tagCriteria",
+          "enclosedArea" : "/dialog/kyani.config:enclosedArea",
+          "otherDeed" : "/dialog/kyani.config:otherDeed",
+          "severe" : "/dialog/kyani.config:severe",
+          "final" : "/dialog/kyani.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/kyani.config:beacon",
+          "rent" : "/dialog/kyani.config:rent"
+        }
+      },
+			"converse": {
+				"default": {
+					"default": [
+						"Hello. What brought you here?",
+						"Yuinanna heia.",
+						"There is nothing more exciting than flight.",
+						"Without a doubt you like travelling.",
+						"Satrah'mah ranh magkh.",
+						"Piloting a ship is one of the best things ever.",
+						"Which songs of your people do you know?",
+						"Life aboard a spaceship... I like it.",
+						"Sometimes flight is better than fight."
+					],
+					"kyani": [
+						"Kivanin astapar, gheruniam?",
+						"What's up, friend?",
+						"Pleasure to meet one of my kin.",
+						"Universe is vast, our kind is too little in numbers.",
+						"I'm glad we're able to stay out of most armed conflicts.",
+						"Juroniankind is only a guest in this universe.",
+						"Should we try to settle on one planet or not?",
+						"Our entire life is travel. Travel to success, travel through time...",
+						"Humans think their ships are better. Ha ha ha!",
+						"Stars welcome every one of us."
+					]
+				}
+			},
+      "accuse" : "/dialog/kyani.config:accuse",
+
+      "attack" : "/dialog/kyani.config:attack",
+      "reattack" : "/dialog/kyani.config:reattack",
+      "killedTarget" : "/dialog/kyani.config:killedTarget",
+      "lostTarget" : "/dialog/kyani.config:lostTarget",
+      "outOfSight" : "/dialog/kyani.config:outOfSight",
+      "cheerOn" : "/dialog/kyani.config:cheerOn",
+      "cantReach" : "/dialog/kyani.config:cantReach"
+    }
+	},
+	"innateStatusEffects": [{
+		"stat": "wetImmunity",
+		"amount": 1
+	}, {
+		"stat": "burningImmunity",
+		"amount": 1
+	}, {
+		"stat": "lavaImmunity",
+		"amount": 1
+	}],
+	"items": {
+		"override": [
+			[0, [{
+					"head": [{
+						"name": "kyanit2head"
+					}, {
+						"name": "kyanit3head"
+					}, ""],
+					"chest": [{
+							"name": "kyanioutfit1chest",
+							"parameters": {
+								"colorIndex": [1]
+							}
+						},
+						{
+							"name": "kyanioutfit2chest",
+							"parameters": {
+								"colorIndex": [1]
+							}
+						},
+						{
+							"name": "kyanioutfit3chest",
+							"parameters": {
+								"colorIndex": [1]
+							}
+						},
+						{
+							"name": "kyanioutfit4chest",
+							"parameters": {
+								"colorIndex": [1]
+							}
+						}
+					],
+					"back": [{
+						"name": "kyanieppnpc",
+						"parameters": {
+							"colorIndex": [0]
+						}
+					}],
+					"legs": [{
+							"name": "kyanioutfit1legs",
+							"parameters": {
+								"colorIndex": [0]
+							}
+						},
+						{
+							"name": "kyanioutfit2legs",
+							"parameters": {
+								"colorIndex": [0]
+							}
+						},
+						{
+							"name": "kyanioutfit3legs",
+							"parameters": {
+								"colorIndex": [0]
+							}
+						},
+						{
+							"name": "kyanioutfit4legs",
+							"parameters": {
+								"colorIndex": [0]
+							}
+						}
+
+					],
+					"primary": [
+              "kyanit2shortsword_ice",
+			  "kyanit2shortsword_fire",
+			  "kyanit2shortsword_physical",
+			  "kyanit2shortsword_poison",
+			  "kyanit2shortsword_electric",
+              "kyanit2machinepistol_ice",
+			  "kyanit2machinepistol_fire",
+			  "kyanit2machinepistol_physical",
+			  "kyanit2machinepistol_poison",
+			  "kyanit2machinepistol_electric"
+					]
+				}
+
+			]]
+		]
+	}
+}

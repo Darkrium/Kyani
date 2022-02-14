@@ -1,0 +1,83 @@
+{
+	"type": "engineerkyani",
+
+	"baseType": "guard",
+
+	"scriptConfig": {
+		"questGenerator": {
+			"pools": [],
+			"enableParticipation": false
+		},
+		"dialog": {
+			"converse": {
+				"default": {
+					"default": [
+						"Sorry, I'm busy right now.",
+						"Hi hi, can you move aside a little?",
+						"That stuff isn't going to build itself.",
+						"Kun'lau sgrehha rra.",
+						"Workin', workin', workin' away.",
+						"We keep machines running.",
+						"Which songs of your people do you know?",
+						"Behind the frontlines we are, doing common work.",
+						"You look like a smart type."
+					],
+					"kyani": [
+						"Kivanin astapar, gheruniam?",
+						"Wanna compete in building things?",
+						"Sammar nik malaki?",
+						"You were in the Terrene Protectorate? I worked there one year ago.",
+						"Row, row, row your boat~... Huh?",
+						"I've made so much stuff... I bet you did too.",
+						"Is there something a kyani can't build?",
+						"My home is where my work is.",
+						"Believe me or not, humans think they can tell us how to do our work. Hmph!",
+						"One of the best things about my work is that I get free rides."
+					]
+				}
+			}
+		}
+	},
+	"innateStatusEffects": [{
+		"stat": "wetImmunity",
+		"amount": 1
+	}, {
+		"stat": "burningImmunity",
+		"amount": 1
+	}, {
+		"stat": "lavaImmunity",
+		"amount": 1
+	}],
+	"items": {
+		"override": [
+			[0, [{
+					"head": [{
+						"name": "kyaniengineerhead"
+					}],
+					"chest": [{
+							"name": "kyaniengineerchest",
+							"parameters": {
+								"colorIndex": [1]
+							}
+						}],
+					"back": [{
+						"name": "kyanieppnpc",
+						"parameters": {
+							"colorIndex": [0]
+						}
+					}],
+					"legs": [{
+							"name": "kyaniengineerlegs",
+							"parameters": {
+								"colorIndex": [0]
+							}
+						}					],
+					"primary": [
+						"npcwrench"
+					]
+				}
+
+			]]
+		]
+	}
+}

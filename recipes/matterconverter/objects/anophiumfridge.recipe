@@ -1,0 +1,12 @@
+{
+  "input" : [
+  { "item" : "kyanicarcassparts", "count" : 2 },
+    { "item" : "kyanit1partkit", "count" : 4 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "anophiumfridge", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

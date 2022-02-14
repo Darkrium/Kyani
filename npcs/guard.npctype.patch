@@ -3,41 +3,42 @@
     "op":"add",
     "path":"/items/kyani",
     "value":[
-      [0, [{
-          "head":[{"name":"kyanitier1head"}],
-          "chest" :[{"name":"kyanitier1chest"}],
-          "legs" :[{"name":"kyanitier1pants"}],
-          "primary":["npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+      [1, [{
+          "head":[{"name":"kyanit1head", "data" : { "colorIndex" : 1 } } ],
+          "chest" :[{"name":"kyanit1chest", "data" : { "colorIndex" : 1 } } ],
+          "legs" :[{"name":"kyanit1pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyanit1assaultrifle_ice", "kyanit1assaultrifle_fire", "kyanit1assaultrifle_physical", "kyanit1assaultrifle_poison", "kyanit1assaultrifle_electric"],
+          "sheathedprimary":["kyanit1sword_ice", "kyanit1sword_fire", "kyanit1sword_physical", "kyanit1sword_poison", "kyanit1sword_electric"]
         }
       ]],
       [2, [
         {
-          "head":[{"name":"kyanitier2head"}],
-          "chest":[{"name":"kyanitier2chest"}],
-          "legs":[{"name":"kyanitier2pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit2head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit2chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit2pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyant1pistol_ice", "kyant1pistol_fire", "kyant1pistol_poison", "kyant1pistol_physical", "kyant1pistol_electric", "kyanit1machinepistol_ice", "kyanit1machinepistol_fire", "kyanit1machinepistol_physical", "kyanit1machinepistol_poison", "kyanit1machinepistol_electric", "kyanit1assaultrifle_ice", "kyanit1assaultrifle_fire", "kyanit1assaultrifle_physical", "kyanit1assaultrifle_poison", "kyanit1assaultrifle_electric"],
+          "sheathedprimary":["kyanit1sword_ice", "kyanit1sword_fire", "kyanit1sword_physical", "kyanit1sword_poison", "kyanit1sword_electric"]
         }
       ]],
       [3, [
         {
-          "head":[{"name":"kyanitier3head"}],
-          "chest":[{"name":"kyanitier3chest"}],
-          "legs":[{"name":"kyanitier3pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit3head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit3chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit3pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyant2pistol_ice", "kyant2pistol_fire", "kyant2pistol_poison", "kyant2pistol_physical", "kyant2pistol_electric", "kyanit2machinepistol_ice", "kyanit2machinepistol_fire", "kyanit2machinepistol_physical", "kyanit2machinepistol_poison", "kyanit2machinepistol_electric", "kyanit2assaultrifle_ice", "kyanit2assaultrifle_fire", "kyanit2assaultrifle_physical", "kyanit2assaultrifle_poison", "kyanit2assaultrifle_electric"],
+          "sheathedprimary":["kyanit2sword_ice", "kyanit2sword_fire", "kyanit2sword_physical", "kyanit2sword_poison", "kyanit2sword_electric"]
         }
       ]],
       [4, [
         {
-          "head":[{"name":"kyanitier4head"}],
-          "chest":[{"name":"kyanitier4chest"}],
-          "legs":[{"name":"kyanitier4pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit4head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit4chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit4pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyant3pistol_ice", "kyant3pistol_fire", "kyant3pistol_poison", "kyant3pistol_physical", "kyant3pistol_electric", "kyanit3machinepistol_ice", "kyanit3machinepistol_fire", "kyanit3machinepistol_physical", "kyanit3machinepistol_poison", "kyanit3machinepistol_electric", "kyanit3assaultrifle_ice", "kyanit3assaultrifle_fire", "kyanit3assaultrifle_physical", "kyanit3assaultrifle_poison", "kyanit3assaultrifle_electric"],
+          "sheathedprimary":["kyanit3sword_ice", "kyanit3sword_fire", "kyanit3sword_physical", "kyanit3sword_poison", "kyanit3sword_electric", "kyant2chargebow_ice", "kyant2chargebow_fire", "kyant2chargebow_poison", "kyant2chargebow_physical", "kyant2chargebow_electric"]
         }
       ]]
+	  
     ]
   }
 ]

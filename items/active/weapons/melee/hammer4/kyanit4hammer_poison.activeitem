@@ -1,0 +1,32 @@
+{
+  "itemName" : "kyanit4hammer_poison",
+  "price" : 16000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Corrosion aura crystal? Woah...",
+  "shortdescription" : "Taukhwaszi Hammer",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "level" : 4,
+  "itemTags" : ["kyani","weapon","melee","hammer"],
+  "inventoryIcon" : "kyanit4hammer_poison.png",
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit4hammer_poison.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "poison",
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 50,
+		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
+      "damageSourceKind" : "poisonhammer" }
+  },
+
+  "altAbilityType" : "shockwave",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

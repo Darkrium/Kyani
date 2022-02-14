@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodykyani",
+  "price" : 234000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodykyani.png",
+  "description" : "A strengthened version of a widely used mech body of Juronians, this one sacrifices comfort for overall prowess.",
+  "shortdescription" : "Juronian Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "kyani"]
+}

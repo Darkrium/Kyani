@@ -1,0 +1,28 @@
+[{
+	"op": "add",
+	"path": "/kyanicivilship",
+	"value": {
+		
+			"warpAction": "InstanceWorld:kyanicivilship",
+			"threatLevel": 1,
+			"skyParameters": {
+				"seed": 0,
+				"horizonClouds": false,
+				"horizonImages": [{
+					"left": "/celestial/system/ships/shiphorizonleft.png",
+					"right": "/celestial/system/ships/shiphorizonright.png"
+				}]
+			},
+
+			"moving": true,
+			"speed": 15.0,
+			"orbitRange": [1, 1],
+			"lifeTime": [1500, 2100],
+			"parameters": {
+				"icon": "/celestial/system/ships/npcship.png",
+				"displayName": "Kyani Civilian Transporter",
+				"description": "This civilian ship acknowledges our communications and her captain cordially invites us to pay a visit."
+			}
+		
+	}
+}]
